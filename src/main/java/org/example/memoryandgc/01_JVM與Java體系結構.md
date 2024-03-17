@@ -123,7 +123,7 @@ Java編譯器輸入的指令流基本上是一種基於**棧的指令集架構**
   add eax,3 //使eax寄存器的值加3
   ```
 
-案例：運行[StackStructureTest.java](StackStructureTest.java) 後，到target目錄，使用命令 `javap -v StackStructureTest`可以看到對應的字節碼指令。
+案例：運行[StackStructureTest.java](chapter01/StackStructureTest.java) 後，到target目錄，使用命令 `javap -v StackStructureTest`可以看到對應的字節碼指令。
 
 總結：
 
@@ -274,6 +274,4 @@ JVM發展歷程
 * 支持不同語言中混用對方的接口和對象，支持這些語言使用已經編寫好的本地庫文件。
 * 工作原理是將這些語言的源代碼或源代碼編譯後的中間格式，通過解釋器轉換為能被Graal VM接受的中間表示。Graal VM提供Truffle工具集快速構建面向一種新語言的解釋器。在運行時還能進行即時編譯優化，獲得比原生編譯器更優秀的執行效率。
 * **如果說HotSpot有一天真的被取代，Graal VM的希望最大**。但是Java軟件生態沒有絲毫變化。
-
-
 

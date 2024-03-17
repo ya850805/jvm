@@ -1,4 +1,4 @@
-package org.example.memoryandgc;
+package org.example.memoryandgc.chapter01;
 
 /**
  * @author jason
